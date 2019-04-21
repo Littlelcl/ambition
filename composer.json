@@ -1,0 +1,25 @@
+{
+    "name": "rise/ambition",
+    "description": "some alway use function",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ambution Zhao",
+            "email": "zhao@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "predis/predis": "^2.0@dev"
+    },
+    "autoload":{
+        "psr-4": {
+            "Ambition\\First\\": "src/Ambition"
+        },
+        "files" : [
+            "Helper/Helper.php"
+        ]
+    }
+}
